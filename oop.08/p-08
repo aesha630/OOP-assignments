@@ -59,7 +59,7 @@ public:
 };
 int main()
 {
- Manager manager("Anjali", 40, "9876543210", 101, "HR", 8);
+ Manager manager("Aesha", 40, "8141436006", 101, "HR", 8);
  cout << "--- Manager Details ---" << endl;
  manager.displayManager();
  return 0;
