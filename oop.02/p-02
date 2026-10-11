@@ -44,7 +44,7 @@ int main()
  const int MAX_STUDENTS = 100;
  // Array of Student objects
  Student database[MAX_STUDENTS];
-Dr. Anjali Ghongade
+
  // Variable to keep track of the number of students
  int currentCount = 0;
  int choice;
@@ -100,7 +100,7 @@ Dr. Anjali Ghongade
  if (currentCount == 0)
  {
  cout << "No student records available to search.\n";
-Dr. Anjali Ghongade
+
  break;
  }
  int searchRoll;
