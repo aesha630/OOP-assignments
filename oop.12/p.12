@@ -1,0 +1,38 @@
+#include <iostream> 
+#include <string>
+ using namespace std;
+
+template <typename T> 
+class Data 
+{
+private: T value;
+
+public: Data(T v) 
+{ 
+value = v;
+}
+void display()
+{
+    cout << "Stored Data: " << value << endl;
+}
+
+};
+
+int main()
+{
+Data<int> d1(100); 
+Data<float> d2(25.5f);
+Data<string> d3("Educational Software");
+
+cout << "Integer Data:" << endl;
+d1.display();
+
+cout << "Decimal Data:" << endl;
+d2.display();
+
+cout << "Text Data:" << endl;
+d3.display();
+
+return 0;
+
+}
